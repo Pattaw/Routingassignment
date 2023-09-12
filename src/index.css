@@ -1,0 +1,133 @@
+:root {
+  --main-color: #1abc9c;
+  --secondry-color: #2c3e50;
+  --third-color: #1a252f;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--secondry-color);
+}
+header > .navbar {
+  min-height: 20vh !important;
+}
+.navbar {
+  background-color: var(--secondry-color);
+  z-index: 33;
+}
+
+a {
+  display: inline-block;
+}
+.Color {
+  background-color: var(--main-color);
+}
+/* .products .product {
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 0 0 0 #2c3e50;
+} */
+.products img {
+  width: 15rem !important;
+  height: 15rem;
+  object-fit: contain;
+}
+header {
+  background-color: var(--secondry-color);
+}
+.nav-link.active {
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+}
+footer {
+  background-color: var(--secondry-color);
+}
+.copyright {
+  background-color: var(--third-color);
+}
+.greyColor {
+  color: var(--secondry-color);
+}
+
+.social a {
+  background-color: var(--secondry-color);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.social a i {
+  color: #fff;
+}
+.lines {
+  width: fit-content;
+}
+.lines div {
+  width: 6rem;
+  height: 4px;
+  background-color: var(--secondry-color);
+  margin: 0 2rem;
+}
+.about .row {
+  width: 85% !important;
+}
+
+.parent {
+  min-height: 80vh;
+}
+form button {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+  width: fit-content;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.item:hover .overflow {
+  opacity: 1;
+}
+.overflow {
+  background-color: #1abc9c93;
+  width: calc(100% - 3rem) !important;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  transition: 0.5s;
+  opacity: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.overflow svg {
+  font-size: 8rem;
+  color: #fff;
+}
+
+.cart span {
+  border: 2px solid var(--main-color);
+  padding: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 60%;
+}

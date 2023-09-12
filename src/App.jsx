@@ -1,0 +1,20 @@
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./Componants/Header/Header";
+import Footer from "./Componants/Footer/Footer";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "@fortawesome/fontawesome-free/js/all.min.js";
+import Layout from "./Componants/Layout/Layout";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
+// import "bootstrap/dist/js/bootstrap.bundle.js";
+function App() {
+  return (
+    <>
+      <Layout />
+    </>
+  );
+}
+
+export default App;
