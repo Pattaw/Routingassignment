@@ -12,6 +12,7 @@ import Contact from "./Componants/Contact/Contact";
 import Layout from "./Componants/Layout/Layout";
 import Portfolio from "./Componants/Portfolio/Portfolio";
 import Products from "./Componants/Products/Products";
+import Home from "./Componants/Home/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const routers = createHashRouter([
@@ -19,7 +20,7 @@ const routers = createHashRouter([
     path: "/",
     element: <Layout />,
     children: [
-      { index: true, element: <About /> },
+      { index: true, element: <Home /> },
       { path: "Portfolio", element: <Portfolio /> },
       { path: "Products", element: <Products /> },
       { path: "contact", element: <Contact /> },

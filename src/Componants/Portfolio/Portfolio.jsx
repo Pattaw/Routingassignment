@@ -19,7 +19,7 @@ function Portfolio() {
             <div className="col-md-4 item position-relative ">
               <img className="w-100" src={img1} alt="portfolio image" />
               <div className="overflow left-0 position-absolute d-flex align-items-center justify-content-center  top-0 h-100 ">
-                <i class="fa-solid fa-plus"></i>
+                <i className="fa-solid fa-plus"></i>
               </div>
             </div>
             <div className="col-md-4 item position-relative">
@@ -37,7 +37,7 @@ function Portfolio() {
             <div className="col-md-4 item position-relative ">
               <img className="w-100" src={img1} alt="portfolio image" />
               <div className="overflow left-0 position-absolute d-flex align-items-center justify-content-center  top-0 h-100 ">
-                <i class="fa-solid fa-plus"></i>
+                <i className="fa-solid fa-plus"></i>
               </div>
             </div>
             <div className="col-md-4 item position-relative">

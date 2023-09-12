@@ -11,6 +11,10 @@ function Products() {
   useEffect(() => {
     getData();
   }, []);
+
+  function handleCart() {
+    console.log("Gg");
+  }
   return (
     <>
       <div className="parent products   py-4">
@@ -27,7 +31,12 @@ function Products() {
                     Price {ele.price}$
                   </p>
                 </div>
-                <button className=" btn btn-success">add to cart</button>
+                <button
+                  className=" btn btn-success"
+                  onClick={() => handleCart()}
+                >
+                  add to cart
+                </button>
               </div>
             );
           })}

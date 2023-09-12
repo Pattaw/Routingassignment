@@ -11,7 +11,8 @@
 header {
   background-color: var(--secondry-color);
 }
-header > .navbar {
+header > .navbar,
+header {
   min-height: 20vh !important;
 }
 .navbar {
@@ -25,6 +26,7 @@ a {
 .Color {
   background-color: var(--main-color);
 }
+
 /* .products .product {
   border: 1px solid #e5e5e5;
   box-shadow: 0 0 0 0 #2c3e50;
@@ -37,10 +39,10 @@ a {
 header {
   background-color: var(--secondry-color);
 }
-.nav-link.active {
+/* .nav-link a.active {
   background-color: var(--main-color);
   border-radius: 0.5rem;
-}
+} */
 footer {
   background-color: var(--secondry-color);
 }
@@ -119,15 +121,23 @@ form input:focus {
   color: #fff;
 }
 
-.cart span {
-  border: 2px solid var(--main-color);
+/* .cart span {
+  border: 2px solid red;
   padding: 0.4rem;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   top: 60%;
+} */
+.home .img {
+  width: fit-content;
+}
+.home img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
