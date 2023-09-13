@@ -3,8 +3,9 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Portfolio from "../Portfolio/Portfolio";
 import { useState } from "react";
+import Products from "../Products/Products";
 
-export default function Header() {
+export default function Header({ count }) {
   let [navbar, setNavbar] = useState(false);
   let [active, setActive] = useState(false);
 
@@ -14,6 +15,7 @@ export default function Header() {
     } else {
       setNavbar(false);
     }
+    console.log(count);
   }
   window.addEventListener("scroll", reduceNavheight);
 

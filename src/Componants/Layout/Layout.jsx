@@ -4,10 +4,10 @@ import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
-function Layout() {
+function Layout(props, count) {
   return (
     <>
-      <Header />
+      <Header count={count} />
       <Outlet />
       <Footer />
     </>

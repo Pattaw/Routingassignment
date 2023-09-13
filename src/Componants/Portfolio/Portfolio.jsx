@@ -3,6 +3,9 @@ import img2 from "../../Assests/Images/port2.png";
 import img3 from "../../Assests/Images/port3.png";
 
 function Portfolio() {
+  function handlePopup() {
+    return <h2>hhhhh</h2>;
+  }
   return (
     <>
       <div className="parent py-5">
@@ -18,12 +21,15 @@ function Portfolio() {
           <div className="row g-5">
             <div className="col-md-4 item position-relative ">
               <img className="w-100" src={img1} alt="portfolio image" />
-              <div className="overflow left-0 position-absolute d-flex align-items-center justify-content-center  top-0 h-100 ">
+              <div
+                className="overflow left-0 position-absolute d-flex align-items-center justify-content-center  top-0 h-100 "
+                onClick={() => handlePopup()}
+              >
                 <i className="fa-solid fa-plus"></i>
               </div>
             </div>
             <div className="col-md-4 item position-relative">
-              <img className="w-100" src={img1} alt="portfolio image" />
+              <img className="w-100" src={img2} alt="portfolio image" />
               <div className="overflow position-absolute d-flex align-items-center justify-content-center left-0 top-0 h-100 ">
                 <i className="fa-solid fa-plus"></i>
               </div>
@@ -41,7 +47,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="col-md-4 item position-relative">
-              <img className="w-100" src={img1} alt="portfolio image" />
+              <img className="w-100" src={img2} alt="portfolio image" />
               <div className="overflow position-absolute d-flex align-items-center justify-content-center left-0 top-0 h-100 ">
                 <i className="fa-solid fa-plus"></i>
               </div>

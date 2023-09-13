@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 function Products() {
   let [data, setData] = useState([]);
-  let [images, setImages] = useState([]);
+
   async function getData() {
     let { data } = await axios.get(`https://fakestoreapi.com/products`);
     setData(data);

@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React, { Children, useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
@@ -13,8 +13,15 @@ import Layout from "./Componants/Layout/Layout";
 import Portfolio from "./Componants/Portfolio/Portfolio";
 import Products from "./Componants/Products/Products";
 import Home from "./Componants/Home/Home";
+import Header from "./Componants/Header/Header";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// function Abdo() {
+//   let [countProduct, setCountProduct] = useState(0);
+
+// }
+
 const routers = createHashRouter([
   {
     path: "/",

@@ -121,18 +121,12 @@ form input:focus {
   color: #fff;
 }
 
-/* .cart span {
-  border: 2px solid red;
-  padding: 0.4rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 0.5rem;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 60%;
-} */
+.shadow {
+  background-color: rebeccapurple;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+}
 .home .img {
   width: fit-content;
 }
